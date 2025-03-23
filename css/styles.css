@@ -1,0 +1,207 @@
+/* Student name: Tommy Le */
+/* Student Number: 9047961 */
+
+/*Root Element html */
+html {
+    /*
+    font-style: Normal;
+    font-variant: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+    */
+
+    font: normal normal 200 20px/1.5 Arial, Helvetica, sans-serif;
+    background-color: lightpink;
+}
+
+/*Height and width, box model */
+body {
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+    padding: .5rem;
+}
+
+footer,
+header {
+    padding: .5rem;
+    margin: .5rem;
+}
+
+/*Layout body*/
+main {
+    /*I had to do 65% any higher and the aside wont be beside main*/
+    width: 65%;
+    float: left;
+    padding: .5rem;
+    border: .25rem solid;
+
+
+}
+
+aside {
+    width: 30%;
+    float: right;
+    padding: .5rem;
+}
+
+#figure {
+    width: 45%;
+    float: right;
+}
+
+p2 {
+    clear: both;
+}
+
+
+
+#blockquote {
+    width: 55%;
+    float: left;
+}
+
+
+
+next-section {
+    clear: both;
+}
+
+
+footer {
+    clear: both;
+    text-align: center;
+}
+
+
+
+/* element type selector */
+h1 {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+}
+
+
+/*Header & Footer Element*/
+header {
+    font-size: 30px;
+}
+
+footer {
+    font-size: 15px;
+}
+
+header,
+footer {
+    background-image: linear-gradient(to right, rgb(113, 134, 160) 20%, rgb(255, 255, 255) 100%);
+}
+
+/*Main element styles*/
+/*Heading */
+header {
+    font-variant: small-caps;
+    font-style: bold;
+    font-weight: 400;
+    font-family: 'Courier New', Courier, monospace;
+    color: lightyellow;
+    text-align: center;
+}
+
+/*<q>*/
+q {
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: 400;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(34, 0, 171);
+    border: .25rem solid;
+    box-shadow: .1rem .1rem .1rem .1rem rgb(255, 255, 255);
+
+
+}
+
+/*Figure & image, video */
+figure {
+    border: 2px solid;
+    border-radius: 12px;
+    background-color: antiquewhite;
+}
+
+img {
+    order: 2px solid;
+}
+
+figcaption {
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: 200;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(91, 0, 18);
+}
+
+/*Aside element style*/
+/*Heading*/
+p4 {
+    font-variant: common-ligatures;
+    color: rgb(24, 16, 5);
+    font-size: 40px;
+}
+
+/*List of links*/
+/*Bullet point*/
+ul {
+    list-style: none;
+
+}
+
+/*Links and link hover*/
+ul li a {
+    color: rgb(73, 46, 13);
+    line-height: 1.5;
+}
+
+ul li a:hover {
+    color: yellow;
+}
+
+/*Forms*/
+form label {
+    color: rgb(99, 3, 51);
+    font-variant: small-caps;
+    font-weight: 100;
+    text-align: center;
+}
+
+/*input controls*/
+form input {
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    html {
+        font-size: 10 px;
+    }
+
+    main {
+        float: none;
+    }
+
+    aside {
+        float: none;
+        width: 100%;
+    }
+
+    #blockquote {
+        float: none;
+        width: 100%;
+    }
+
+    #figure {
+        float: none;
+        width: 100%;
+    }
+}
