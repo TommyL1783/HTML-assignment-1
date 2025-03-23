@@ -58,7 +58,7 @@ p2 {
 
 
 
-#blockquote {
+.blockquote {
     width: 55%;
     float: left;
 }
@@ -195,7 +195,7 @@ form input {
         width: 100%;
     }
 
-    #blockquote {
+    .blockquote {
         float: none;
         width: 100%;
     }
